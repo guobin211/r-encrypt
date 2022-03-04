@@ -1,0 +1,9 @@
+/target
+**/*.rs.bk
+Cargo.lock
+bin/
+pkg/
+wasm-pack.log
+
+# 项目排除路径
+/dist/
