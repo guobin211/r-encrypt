@@ -4,7 +4,6 @@ extern crate base64;
 use crate::utils::{rs_md5, rs_md5_form_buffer};
 use base64::{decode, encode};
 use wasm_bindgen::prelude::*;
-use wasm_bindgen::JsObject;
 
 #[cfg(feature = "wee_alloc")]
 #[global_allocator]

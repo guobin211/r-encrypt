@@ -1,3 +1,4 @@
+/* A function that takes a string and returns a string. */
 pub fn rs_md5(s: &str) -> String {
     let result = md5::compute(s);
     format!("{:x}", result)
